@@ -3,11 +3,11 @@ window.addEventListener('load', function() {
     const $modal = document.getElementsByClassName('modal');
 
     $button.addEventListener('click', function() {
-        $modal[0].style.display="block";
+        $modal.style.display="block";
     });
 
-    $modal[0].addEventListener('click', function() {
-        $modal[0].style.display="none";
+    $modal.addEventListener('click', function() {
+        $modal.style.display="none";
     });
 
     const windowHeight = window.innerHeight;
