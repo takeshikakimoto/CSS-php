@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <head>
     <meta charset = “UFT-8”>
     <link rel="stylesheet" href="css/styles.css">
@@ -7,7 +7,7 @@
 <body>
 <form action="board_output.php" method="post">
 
-    <a class="name">お名前</a>
+    <a class="name">名前</a>
     <input class="namearea" type="text" name="name" value="">
 
     <a class="title"><br/>タイトル</a>
