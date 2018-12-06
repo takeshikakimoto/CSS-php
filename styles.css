@@ -51,7 +51,7 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
 }
 .modal_content {
-    background: white;
+    background: antiquewhite;
     width: 300px;
     position:absolute;
     top:40px;

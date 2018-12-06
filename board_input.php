@@ -34,25 +34,15 @@
     </div>
 
     <?php
-    $pdo = new PDO("mysql:host=localhost;dbname=board_test;charset=utf8", "root", "");
-
-    try {
-
+    try {$pdo = new PDO("mysql:host=localhost;dbname=board_test;charset=utf8", "root", "");
+        $sql = "SELECT * FROM board";
+        $stmt = $pdo->query($sql);
     } catch (PDOException $e) {
-
-
+        exit;
         echo 'データベースにアクセスできません！' . $e->getMessage();
 
-
-        exit;
-
     }
-    $sql = "SELECT * FROM board";
-
-
-    $stmt = $pdo->query($sql);
     ?>
-
     <?php foreach($stmt as $row) { ?>
 
     <div class="box1">
