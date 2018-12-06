@@ -46,6 +46,7 @@ if (count($error) > 0){
 ?>
 <?php if (count($error) == 0){
 
+
     try {$pdo = new PDO("mysql:host=localhost;dbname=board_test;charset=utf8", "root", "");
         $sql = "INSERT INTO board(title,name,text,date) VALUES('$title','$name','$text','$date')";
         $stmt = $pdo -> prepare($sql);

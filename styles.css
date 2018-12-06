@@ -51,7 +51,10 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
 }
 .modal_content {
-    background: antiquewhite;
+
+
+    background: blanchedalmond;
+
     width: 300px;
     position:absolute;
     top:40px;
