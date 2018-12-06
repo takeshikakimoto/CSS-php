@@ -38,9 +38,9 @@
         $sql = "SELECT * FROM board";
         $stmt = $pdo->query($sql);
     } catch (PDOException $e) {
-        exit;
-        echo 'データベースにアクセスできません！' . $e->getMessage();
 
+        echo 'データベースにアクセスできません！' . $e->getMessage();
+        exit;
     }
     ?>
     <?php foreach($stmt as $row) { ?>
