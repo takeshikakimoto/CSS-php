@@ -11,6 +11,6 @@ window.addEventListener('load', function() {
     });
 
     const windowHeight = window.innerHeight;
-    $modal[0].style.height = windowHeight + 'px';
+    $modal.style.height = windowHeight + 'px';
 
 });
