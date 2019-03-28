@@ -8,7 +8,7 @@
 <body>
 <form action="board_output.php" method="post">
 
-    <a class="name">名前～～～～～～～～</a>
+    <a class="name">ここ間違えちゃったよ～～～～</a>
     <input class="namearea" type="text" name="name" value="">
 
     <a class="title"><br/>タイトル</a>
